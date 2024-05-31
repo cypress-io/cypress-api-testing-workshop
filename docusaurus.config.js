@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NestJS API & Cypress',
-  tagline: 'apis are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Cypress API Testing Workshop',
+  tagline: "apis are cool and testing doesn't have to suck",
+  url: 'https://cypress.io',
   baseUrl:
     process.env.NODE_ENV === 'production' ? '/cypress-api-testing/' : '/',
   onBrokenLinks: 'throw',
@@ -50,10 +50,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Workshop',
+        title: 'API Testing Workshop',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Cypress Logo',
+          src: 'img/cypress-logo-light.png',
         },
       },
       prism: {
