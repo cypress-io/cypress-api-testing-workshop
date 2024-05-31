@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cypress API Testing Workshop',
-  tagline: "apis are cool and testing doesn't have to suck",
+  tagline: "APIs are cool and testing doesn't have to suck",
   url: 'https://cypress.io',
   baseUrl:
     process.env.NODE_ENV === 'production' ? '/cypress-api-testing/' : '/',
@@ -17,7 +17,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'elylucas', // Usually your GitHub org/user name.
+  organizationName: 'cypress-io', // Usually your GitHub org/user name.
   projectName: 'NestJS + Cypress API', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
