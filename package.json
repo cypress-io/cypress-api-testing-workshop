@@ -1,9 +1,12 @@
 {
-  "name": "workshop-starter",
+  "name": "cypress-api-testing-workshop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm --prefix ./server run start",
+    "postinstall": "npm --prefix ./server install",
     "guide": "path-exists guide && echo 'guide already cloned' || git clone -b guide git@github.com:elylucas/cypress-api-testing.git guide && path-exists ./guide/node_modules && echo 'guide deps already installed' || npm --prefix ./guide install && npm --prefix ./guide run serve"
   },
   "author": "",

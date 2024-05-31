@@ -1,9 +1,11 @@
 # Cypress API Testing
 
+Welcome to the Cypress API Testing Workshop!
+
 ## Getting Started
 
 To get started, open the guide at
-[https://elylucas.github.io/cypress-api-testing/](https://elylucas.github.io/cypress-api-testing/)
+[https://cypress-io.github.io/cypress-api-testing-workshop/](https://cypress-io.github.io/cypress-api-testing-workshop/)
 and continue in the Getting Started section.
 
 If you cannot access the above URL, you can view the guide locally by running
