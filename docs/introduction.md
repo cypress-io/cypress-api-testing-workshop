@@ -32,5 +32,7 @@ superheroes.
 
 To get started, you will need the following tools:
 
-- Node 16+ Installed
+- Laptop
+- Node 16+
+- Git
 - VS Code or similar IDE
