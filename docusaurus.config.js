@@ -10,7 +10,7 @@ const config = {
   tagline: "APIs are cool and testing doesn't have to suck",
   url: 'https://cypress.io',
   baseUrl:
-    process.env.NODE_ENV === 'production' ? '/cypress-api-testing/' : '/',
+    process.env.NODE_ENV === 'production' ? '/cypress-api-testing-workshop/' : '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
