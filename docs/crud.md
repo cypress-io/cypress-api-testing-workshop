@@ -17,7 +17,7 @@ it("should get single mission", () => {
   cy.get("@response").its("status").should("equal", 200);
   cy.get("@response").its("body").should("include", {
     id: 1,
-    description: "take out the trash",
+    description: "save the galaxy",
     complete: false,
   });
 });

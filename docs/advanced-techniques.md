@@ -147,8 +147,6 @@ use guards can either be global or more granular. We only want to apply the
 guard to the `reset()` method, so we can use the `@UseGuards()` decorator and
 pass the `TestOnlyGuard` as a parameter to it:
 
-a
-
 ```ts
 @UseGuards(TestEnvOnlyGuard)
 @Post('/reset')
